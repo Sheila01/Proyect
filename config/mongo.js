@@ -14,4 +14,4 @@ const dbConnect = () => {
     })
 }
 
-export default dbConnect
+module .exports = dbConnect
