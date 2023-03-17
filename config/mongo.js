@@ -6,7 +6,9 @@ const dbConnect = () => {
       useNewUrlParser: true,
       useUnifiedTopology: true
     }, (err, res) => {
-
+      if(!err){
+        console.log('**** The connect is success')
+      }
     })
 }
 
