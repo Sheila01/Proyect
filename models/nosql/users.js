@@ -24,3 +24,8 @@ const UserSchema = new mongoose.Schema(
     versionKey: false
   }
 )
+
+//export default mongoose.model('__', UserSchema)
+export default {
+  UserSchema
+}
