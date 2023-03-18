@@ -25,8 +25,8 @@ const UserSchema = new mongoose.Schema(
   }
 )
 
-module.esports = mongoose.model('users', UserSchema)
-/*export default {
+//module.esports = mongoose.model('users', UserSchema)
+export default {
   users,
-  UserSchema 
-}*/
+  UserSchema
+}
