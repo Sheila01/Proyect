@@ -45,4 +45,4 @@ const  deleteItem = (req, res) => {
 
 }
 
-export default {getItems, getItem, createItem, updateItem, deleteItem}
+module.exports =  {getItems, getItem, createItem, updateItem, deleteItem}
