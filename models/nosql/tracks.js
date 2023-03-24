@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose')
 
 const trancksSchema = new mongoose.Schema(
   {
@@ -44,8 +44,8 @@ const trancksSchema = new mongoose.Schema(
   }
 )
 
-//module.esports = mongoose.model('Tracks', trancksSchema)
-export default {
+module.esports = mongoose.model('Tracks', trancksSchema)
+/*export default {
   Tracks,
   trancksSchema
-}
+}*/

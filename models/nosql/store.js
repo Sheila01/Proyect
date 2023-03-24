@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose')
 
 const StoreSchema = new mongoose.Schema(
   {
@@ -15,9 +15,9 @@ const StoreSchema = new mongoose.Schema(
   }
 )
 
-//module.esports = mongoose.model('Store', StoreSchema)
-export default {
+module.esports = mongoose.model('Store', StoreSchema)
+/*export default {
   Store,
   StoreSchema
 }
- 
+ */
