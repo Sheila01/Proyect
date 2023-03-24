@@ -5,4 +5,4 @@ const models = {
 
 }
 
-export default models
+module.exports = models
